@@ -1,0 +1,238 @@
+body{
+    
+    font-family:'Manrope', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+.banner1{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+}
+
+.banOne1{
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    margin: 3px;
+   
+}
+.Play{ 
+    background-color:  rgb(178, 219, 237);
+    border-radius: 10px;
+    font-size: 13px;
+    padding-bottom: -2px;
+    margin-left: 20%;
+    font-size: 12px;
+}
+.banOne2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    word-spacing: 2px;
+    padding-top: 6px;
+    
+}
+button{
+    font-size: 12px;
+    border: none;
+    
+}
+.acct, .vipicon{
+    height: 20px;
+    width: 30px;
+    padding-top: -20px;
+}
+
+.Account, .vip{
+    justify-content: center;
+
+}
+.shop{
+    color: rgb(20, 111, 185);
+}
+.banOne3{
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    margin-right: 8%;
+
+    
+}
+
+
+.banner2{
+    display: flex;
+    background-color: #f9d400;
+    width: 100%;
+    height: 55px;
+    padding-top: 20px;
+}
+.banTwoIcons{
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    margin-left: 70%;
+    margin-right:10%;
+}
+.logo{
+    width: 56px;
+    height: 56px;
+    display: flex;
+    margin-left: 6.5%;
+   
+}
+.logoicon{
+    padding-bottom: 10px;
+}
+
+.banTwoNavText{
+    display: flex;   
+}
+.Shop, .help, .disc{
+    font-size: 20px;
+    margin-right:30px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.Shop{
+    margin-left: 20px;
+}
+.search, .like, .cart{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+.banner3{
+    display: flex;
+    width: 100%;
+    /*height: 50px;*/
+    justify-content:left;
+    margin-left: 6.5%;
+}
+.banThree1{
+    display: flex;
+    align-items: center;
+}
+.home, .sets{
+    coloR: rgb(20, 111, 185);
+    word-spacing: 2px;
+    letter-spacing: 0.3px;
+    font-size: 13px;
+}
+
+.banner4{
+    background-color: #1774cb;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    border:solid black;
+    border-width: 1px;
+}
+
+h1{
+    display: flex;
+    color:white;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 5px;
+    letter-spacing: 2px;
+}
+
+.themes{
+    margin-top: 3%;
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.col1,.col2,.col3,.col4{
+    /* border:solid blue; */
+    width:30%;
+    border:  slateblue;
+    border-width: 1px;
+}
+.box{
+    height:400px;
+    width:100%;
+    border-width: 2px;
+   
+}
+p{
+    font-size: 13px;
+    word-spacing: 0.5px;
+    
+}
+.img{
+    width: 100%;
+    margin: 0;
+}
+.theme1{
+    display: block;
+}
+.shopNLearn{
+    display: flex;
+    font-weight: 700;
+}
+h4{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.footer {
+        background-color: rgb(9, 9, 60);
+        color: white ;
+        list-style: none;
+        margin-left: 0;
+        display: flex;
+        
+    }
+    .footergrid {
+        background-color: rgb(9, 9, 60);
+        color: white;
+        display: grid;
+        list-style: none;
+        gap: 15rem;
+        grid-template-columns: 200px 200px 200px;
+        margin-left: 0px;
+    }
+   
+    .logoBox4, .footerlogo{
+        border: solid black;
+        border-width: 1px;
+        height: 100px;
+        width: 100px;
+        margin-left: 20%;
+    }
+    .usGrid, .column1 {
+        width: 110px;
+        margin-left: 25%;
+        height: 40px;
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    ul {
+        list-style: none;
+        line-height: 20px;
+    }
+    
+footer{
+    width: 100%;
+    font-size: 12px;
+}
+.bottomGrid{
+    margin-left: 20%;
+
+}
+h3{
+    margin-left: 40px;
+}
